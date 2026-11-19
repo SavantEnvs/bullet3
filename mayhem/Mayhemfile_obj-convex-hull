@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: obj-convex-hull
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/obj-convex-hull/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_obj_convex_hull
+    libfuzzer: true
+    timeout: 10

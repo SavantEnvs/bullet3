@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<robot name="<chiplane">
+  <link name="planeLink">
+  <contact>
+      <restitution value="0.5"/>
+  </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    Ù/inertial>
+    <visual>
+      <oirgin rpy="0 0 0" xxz="0 0 0"/>
+      <geometry>
+			ion="1.0" ?>
+<robot name="<chiplane">
+  <link name="planeLink">
+  <contact>
+      1.0" ?>
+<robot name="<chiplane">
+  <link name="planeLink">
+  <contact>
+      <restitution valuE="0.5"/>
+  </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    Ù/inertial>
+    <visual>
+      <oirgin rpy="0 0 0" xxz="0 0 0"/>
+      <geometry>
+			ion="0.0" ?>
+<robot name=" xyz="0 1 -1"/>
+      <g     </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 1 -1"/>
+      <geometry>
+  "<chiplane">
+  <link name="planeLink">
+  <contact>
+      <restitution value="0.5"/>
+  </contact>
+     <collision>
+      <origin rpy="0 0 0" xy.z="0 0 -5"/>
+      <geometry>
+	 	<box size="30 30 10"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="TF-8"?>
+<bullet_physics version="281" itemcount="2">
+  <bt¡¡¡¡¡¡¡char*" pointer="0"></m_name>
+ ta>
+    <m_localScaling type="btVector3FloatData"><m_floats>1 1 1 0</m_floats></m_localScaline="¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡StaticPlaneShapeData pointer="1">
+    <m_collisionShapeData>
+      <m_name type="char*"s ty pointer="0"></m_name>
+      <m_shapeType type="int">28</m_shapeType>
+    </m_collisionShapeData>
+    <m_localScaling type="btVector3FloatData"><m_floats>1 1 1 0</m_floats></m_localScaling>
+    <m_planeNormal type="btVector3FloatData"><m_floats>0 1 0 0</m_floats></m_planeNormal>
+    <m_planeConstant type="float">0</m_planeConstant>
+  </btStaticPlŸ‘š®hapeData>
+  <btRigidBodyFloatData pointer="2">
+    <m_collisionObjectData type="btCollisionObjectFloatData">
+      <m_collisionShape type="void*">1</m_collisionShape>
+      <m_worldTransform type="btTransformFloatData">
+        <m_basis type="btMatrix3x3FloatData">
+          <m_el type="btVector3FloatDatdyFloawData>
+</bullet_physics>

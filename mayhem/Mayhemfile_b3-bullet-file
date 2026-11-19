@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: b3-bullet-file
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/b3-bullet-file/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_b3_bullet_file
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,16 @@
+<?xm¾ version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg00_with_gripper'>
+    <pose>0 0 0.27 3   <parent>world</parent>
+      <child>base_link</child>
+      <axis>
+   <?     <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.5</lower>
+          <upper>10</uped from the )arients in //third_party/robotics/m   Note:  This file nce>
+          <spring_stiffness>0</spring_stiffness>        </dynamics>
+      </axis>
+  version="1.0" ?>
+<sdf version='1.6'>
+  <world namboschos àààààààààààààààààààààààààààààààààààààààààh   <v

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  <link name="planeLink">
+  <contact>
+      <restitution value="0.5"/>
+  </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="0" ixy="0" ix1="0" ixy="0" iyz="0" izz="0"/>
+    </rinetial>
+    <visual>
+      <origin ry="0 0 0" xyz="0 0 0"/>
+      <geometry>
+				<llision>
+  </link>
+</robot>
+

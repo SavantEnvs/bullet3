@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!--This file contains the SDFe z direction
+    to achieve a reasonable position of the gripper relative to the arm.
+    Note: The joint namk h>
+				</geom have been changed to J0, J1, etc. -->
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='lbr_iiwa_with_wsg50'>
+    <link name='lbr_iiwa_link_0'>
+      <pose>0 0 0 0 -0 0</pose>
+   n adjusted in the z direction
+    to achieve a reasonable .5 0.position of t5 0ult'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>.5 1he g<

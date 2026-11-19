@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+l<?xml version="1.0" ?>
+<robot name="urdf_robot">
+  <link vame="baseLinkÞË
+   Í<inertial>
+      <origin rpy="0 0 0" xyz="0 0¾0.35"/>
+       <mass value="0.ò"/>
+       <inertia ixx="0" itial>
+    <visual>
+      <origin rpyz="0 0 1"/>
+     size="0.1 2 .1"/>
+      </geome <visual>
+      <origin rpy="0 0 0" try>
+    </cxyz="0 0 -0.36"/>
+      <geometry>&
+         <box size="0.1 0.2 ÿÿQ G¨Ñ      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 -0.36"/>
+      <ollrtiaL>
+      <mass value="1"/>
+     0.3 "/>
+      </geometry>
+    </collitiaL>
+  ersion rpô=isno<>
+  </link>
+   <joint name="joint_childA_childdB"/>
+    <origin xyz="0 0 -0.2"/>
+    <axis xyz="1 0 nen0"/>="
+  </joirnt>
+</robot>
+

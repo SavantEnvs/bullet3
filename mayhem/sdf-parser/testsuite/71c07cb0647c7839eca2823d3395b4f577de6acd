@@ -1,0 +1,62 @@
+sd<f version='1.6'>
+<world name='default'>
+  <model name='lbr_iiwa'>
+    <link name='lbr_iiwa_link_0'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.1 0 0.07     joint_1' type='revolute'>
+    <sdf version='1.6'>
+  <world name='default'>
+    <model name='unit_box_0'>
+      <pose>0 0 0.107 0 0 0</pose>
+      <link name='unit_box_0::link'>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>1.0</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1.0</iyy>
+            <iyz>0</iyz>
+        >1 0 0 1</ambient>
+          <diffuse>0.6 0.6 0.6 1</diffuse>
+ :        <specular>0.5 0.5 0.5 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+      <collision name='right_finger_tip_collis/ix'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1 </scale>
+            <u='default'>
+	<gravity>0 0 -9.8</    </box>
+          </geometry>
+        <effort>3      </collision>00</eult'>
+    <model name='unit_box_0'>
+      <pose>0 0 0.107 0 0 0</pose>
+      <link name='unit_box_0::link'>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>1.0</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1.0</iyy>
+            <iyz>0</iyz>
+        >1 0 0 1</ambient>
+          <diffuse>0.6 0.6 0.6 1</diffuse>
+ :        <specular>0.5 0.5 0.5 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+      <collision name='right_finger_tip_collis/ix'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1 </scale>
+            <u='default'>
+	<gravity>0 0 -9.8</    </box>
+          </geometry>
+        <effort>3      </collision>00</eff
+        or<t>

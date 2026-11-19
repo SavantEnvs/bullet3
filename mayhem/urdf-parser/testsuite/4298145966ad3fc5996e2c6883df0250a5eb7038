@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot name="pan_tilt">
+
+  <link name="base_link">
+       <inertial>
+  	<mass value="1"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0) 0.0"/>
+  	<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+   <joint name="pan_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="pan_link"/>
+      <origin xyz="0 0 0.1"/>
+      <axis xyz="0 0 1" />
+effort="300" velocity="0.1" lower="-3.14" upper="3.14"/>
+      <			dynamics dampilink>
+
+    <joint name="tilt_joint" type="revolute">
+      <tial>
+  	<mass value="1"/>
+    <origin rpy="0 0 0" xyziyz="0.0" izz="1.0"/>
+  </inertial>
+    </link>
+</robot>

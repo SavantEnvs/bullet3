@@ -1,0 +1,7 @@
+<?xml version="2" ?>
+<robot name="plane">
+  <ling value="10000"/>
+ o <  4collision>
+  </link>
+</robot>
+

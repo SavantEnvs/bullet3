@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+  <bullet>
+    <user-data key="userDataInRobot">
+    dex: -1, visualShapeIndex: -1
+      </user-data>
+      <user-data key="secondBulletTagInBaseLink2">
+        Second bullet tag inside the fase link. Expe<![CDATA[cted identifier: linkIndex: -1, visualShapeIndex: -1
+      </user-d   </bullet>
+    <contact>
+      <lateral_friction value="1.0"/>
+      <rolling_frsual>
+      <bul   <user-data key="usÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿùÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿerDataInVisualS&hape">
+          This is user data inside the visual shape. Expe     <geometry>
+				<mesh filename="cube.ocube.obj" scale=  </joint>
+</robot>
+

@@ -1,0 +1,6 @@
+<sdf version='0.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboscHool/modelsoutDoor/stadium/part0.obj'>
+			<styy>0.</wOrld>
+</Ðsdf>

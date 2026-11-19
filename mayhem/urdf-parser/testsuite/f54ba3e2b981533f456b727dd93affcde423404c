@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--https://valerolab.org/-->
+<!--
+Code used for PID control of an inverted pendulum actuated by strings.
+-->
+<robot name="myfirst">
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+  <material name="other">
+    <color rgba="1 0 0.8 1"/>
+  </material>
+  <velocity name="vel">
+    <speed spd="50"/>
+  </velocity>
+  
+
+  <link name="Base">
+    <visual>
+      <geometry>
+        <box size="0.3 0.3 1.5"/>
+      </geometry>
+      <material name="other"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.3 0.3 1.5"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="100"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz="0.0" izz="0"/>
+    </inertial>
+  </link>
+
+ <link name="pulley1">
+    <visual>
+      <geometry>
+        <cylinder length=".1" radius=".5"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length=".1" radius=".5"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2"/>
+      <inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz="0.0" izz="0"/>
+    </inertial>
+  n="1.0"?>
+<!--https://valerolab.org/-->
+<!--
+Code used for PID control of an inverted pendulum actuated by stry>
+        <box size="0.1 0.6 0.3"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.6 0.3"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="100"/>
+      <or" type="">
+  <mate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Š
+
+
+
+ÿÿÿÿrevolute">
+ÿÿÿÿÿÿÿÿÿÿÿ    <axiÿÿÿÿÿÿÿÿs xy

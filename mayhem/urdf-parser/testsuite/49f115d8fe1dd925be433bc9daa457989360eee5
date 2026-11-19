@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <link name="baseLin1k">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ </geometry>
+       <mater"0 0 >
+

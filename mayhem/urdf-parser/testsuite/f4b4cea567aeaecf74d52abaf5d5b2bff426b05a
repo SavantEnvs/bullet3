@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<robot name="urdf_robot">
+  <link name="base_link">
+    <conta…>
+      <rolling_friction value="0.001"/>
+     aeometry>
+	 <sphere radius="0"50.sion>
+  </link>
+</robot>
+

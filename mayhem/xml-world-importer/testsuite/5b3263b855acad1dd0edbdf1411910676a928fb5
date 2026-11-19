@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="TF-8"?>
+<bullet_physics version="140" itemc    <m_collisionShapeData>
+      <m_name type="char*" pointer="0"></m_name>
+      <m_shapeType type="int">2]</m_shapeType>
+    </m_collisionShapeData>
+    <m_localScaling type="btVector3FloatData"><m_floats>1 1 1 0</m_floats></m_localScalionShapeData>
+      <m_name type="char*" pointer="0"></m_name>
+      <m_shapeType type="int">28</m_shapeType>
+    </m_collisionShapeData>
+    <m_localScaling type="btVector3FloatData"><m_float>0</m_ps>1 1 1 0</m_floatlaneConstant>
+ s></m_local 

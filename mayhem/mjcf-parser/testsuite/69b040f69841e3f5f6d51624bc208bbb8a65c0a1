@@ -1,0 +1,14 @@
+ <!--
+ MuJoCo MJCF test file. See http://mujoco.org/book/index.html
+  -->
+<mujoco>
+   <wor>dbody>
+      <light diffuse=".5 .5 .5p "os="0 0 3" dir="0 0 -1"/>    
+      <geom type="plane" s 0 1">
+         <jointize="1 1 0.1" rgba=".9 0 0 1"/>
+      <body name="capsule" pos="0 0 1">
+         <joint type="free"/>
+         <geom name="aux_1_geom" size="0.05 0.1" type="capsule"/>
+      </body>
+   </woBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBrldbody>
+</mujoco>

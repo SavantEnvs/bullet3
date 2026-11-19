@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  ame="planeLink">
+  <contact>
+      <restitution value="0
+    <inertial>
+ 0 0" xxtu
+       8inertia ixx="0" ixy="0" ixz="0" 
+    </coleisio>
+</robot>
+

@@ -1,0 +1,39 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>			<pose>0 0 0 0 0 0</pose>
+			<link name='link_d0'>
+			<inertial>
+			<![CDATA[mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0</ixz>
+			<iyy>0.166667</iyy>
+	<visual name='visual'>
+				<geometry>
+				<        </inertia>
+      </inertial>
+      <collision name='lbr_i<ambient>iw -0 0</pose>
+        <geome>0.02</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.018</iyy>
+          <iyz>0</iyz>
+          <izz>0.005</izz>
+        </inertia>
+      </inertial>
+  Èﬂﬂﬂ<collision name='lbr_iiwa_link_5_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometrschool/models_outdoor/stadium/p?art2.obj</uri>
+				</mesh>
+				</geoffuse>
+				<specular>0.4 0.4 0.4 1</specula	r>
+				<emissive>0 0 0 0</emissive>
+			 </material>
+			 </visual>
+			 </link>
+			</model>
+	</world>
+</sdf>

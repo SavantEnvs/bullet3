@@ -1,0 +1,17 @@
+<?xml "281" itemcount="2">
+  <btStaticPlaneShapeData pointer="1">
+    <m_collisionShapeDataata">
+        <m_basis type="btMatrix3x3FloatData">
+          <m_el type="btVector3FloatData"><m_floats>1 0 0 0</m_floats><m_floats>0 1 0 0</m_floats><m_floats>0 0 1 0</m_floats></m_el>
+        </m_basis>
+        <m_origin type="btVector3FloatData"><m_floats>0 0 0 0</m_floats></m_origin>
+      </m_worldTransform>
+      <m_friction type="float">0.5</m_friction>
+      <m_restitution type="float">0</m_restitution>
+      <m_collisionFlags type="int">1</m_collisionFlags>
+    </m_collisionObjectData>
+    <m_inverseMass type="float">0</m_inverseollisionShape>
+      <m_worldTransform type="btTransformFloatData">
+        <m_basis type="btMatrix3x3FloatData">
+          <m_el type="btVector3FloatDatdyFloawData>
+</bullet_physics>

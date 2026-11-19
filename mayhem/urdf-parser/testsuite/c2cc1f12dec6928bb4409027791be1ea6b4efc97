@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<roing_fripinning_friction value="0.001"/>
+    0.006"/>
+    <repulsion_stiffness value="800.0"/>
+    <friction value= "0.5"/>
+    <neohookean mu= "180" lam    </geometry>
+    
+  </deformab.
+bot>"

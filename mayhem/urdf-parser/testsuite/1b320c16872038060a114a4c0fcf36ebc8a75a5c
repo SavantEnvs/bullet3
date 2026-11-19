@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  <link xmln="planeLink">
+	<contact>
+      <!--<frictian_þÿÿÿor/>-->
+        <inertial>
+      <origin rpy="0 0  " xyz="0 0 0"/>
+       <manertia ixx=
+     
+

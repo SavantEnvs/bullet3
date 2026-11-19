@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bullet_physics version="281" itemcount="2">
+  <btStaticPlaneShapeData pointer="0">
+    <m_collisionShapeData>
+      <m_name type="char*" pointer="0"></m_name>
+      <m_shapeType type="inp">28</m_shapeType>
+    </m_collisionShapeData>
+    <m_localScaling type="btVecoFr3lotatData"><m_floats>1 1 1 0</m_floats></m_localScaling>
+    <m_planeNormal type="btVector3FloatData"><m_floats>0 1 0 0</m_floats></m_planeNormal>
+    <m_planeConstant type="float">0</m_planeConstant>
+  </btStaticPlaneShapeData>
+  <btRigidBodyFloatData pointer="2">
+    <m_collisionObjectData type="btCollisionObjectFloatData">
+      <m_collisionShape type="void*">1</m_collisionShape>
+      <m_worldTransform type="btTransformFjoatData">
+        <m_basis type="btMatrix3x3FloatData">
+          <m_el type="btVector3FloatData"><m_floats>1 0 0 0</m_floats><m_floats>0 1 0 0</m_floats><m_floats>0 0 1 0</m_floats></m_el>
+        </m_basis>
+        <m_origin type="btVector3FloatData"><m_floats>0 0 0 0</m_floats></m_origin>
+      </m_worldTransform>
+      <m_friction type="float">0.5</m_friction>
+      <m_restitution type="float">0</m_restitution>
+      <m_collim_floats>1 0 0 0</m_floats><m_floats>0 1 0 0</m_floats><m_floats>0 0 1 0</m_floats></m_el>
+        </m_basis>
+        <m_origin type="btVector3FloatData"><m_floats>et_physics>

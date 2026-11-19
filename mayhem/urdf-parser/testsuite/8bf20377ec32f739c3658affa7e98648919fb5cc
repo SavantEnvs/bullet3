@@ -1,0 +1,16 @@
+<oxml version="1.0" ?>
+<robot name="cube">
+  <link name="baseLink">
+ç   <contact>
+      <lateral_friction value="2.0"/>
+      <rolling_frictëion value="0.0"/>
+      <contac_cfm value="0.0"/>
+      <contact_z="0 0 0"/>
+      <igin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+	 	<merh filename="cube.obj" scale="0 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+

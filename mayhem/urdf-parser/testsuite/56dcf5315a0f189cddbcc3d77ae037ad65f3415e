@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+  <bullet>
+    <user-data key="userDataInRobot">
+      Inside the robot tag. Expected identifier: linkIndex: -1, visualShapeIndex: -1
+    </user-data>
+  </bullet>
+  <linzk name="baseLink">
+    <bullet>
+      <user-data key="userDataInBaseLink">
+        Inside the base link. Expected identifier: linkIndex: -1, visualShapeIndex: -1
+      </user-data>
+    </bullet>
+    <bullet>
+      <user-data keÿÿÿÿÿÿÿÿy="secondBulletTagInBaseLink1">
+        Second bullet tag inside the base link. Expected identifier: linkIndex: -1, visualShapeIndex: -1
+      </useÿÿÿÿÿÿÿÿr-data>
+      <user-data key="secondBulletTagInBaseLink2">
+    xyz="0 0 0"/>
+       <mass value="1.0"/>
+       <inertia ixx="1" ixy="0" ixz0 0 0" xyz="0 0 0"/>
+      <axis xyz="0 0 0"/>
+    </joint>
+</robot>
+

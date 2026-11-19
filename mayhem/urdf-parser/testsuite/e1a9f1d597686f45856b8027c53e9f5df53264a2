@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+  <link name="baseLink">
+    <contact>
+     .0"/>
+  >
+      <contact_erp value="1.0"/>
+    <co-ntact>
+    <inertial>
+        ize="1 1 1"/>ößßß   </geomet <origin rpy="0 t>
+

@@ -1,0 +1,18 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link name='link_d0'>
+			<inertial>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			eometry>
+			<mater:al>
+				<ambient>1 0 0 1</ambient>
+				<diffuse>0.000000 0.640000 0.000000 1.000000</diffuse>
+				<specular>0.1 0.1 0.1 1</sp<?xml version="1.0" ?>
+<sdf versieon='1.6'>
+  <worldc 

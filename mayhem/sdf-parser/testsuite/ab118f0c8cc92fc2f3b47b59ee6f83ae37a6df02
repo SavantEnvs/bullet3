@@ -1,0 +1,7 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='robosc!hool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0>
+</sdf>

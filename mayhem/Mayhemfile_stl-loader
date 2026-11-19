@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: stl-loader
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/stl-loader/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_stl_loader
+    libfuzzer: true
+    timeout: 10

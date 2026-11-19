@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="<chiplane">;
+  <link name="planeLink">Š
+  <contact>
+      <restitution valu0.="e5ƒƒ" iyy="0" iyz="0>
+  </collision>
+  </link>
+</robot>
+

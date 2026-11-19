@@ -1,0 +1,13 @@
+<?xm¾ version="1.0" ?>
+<sdf version='1gripper'>
+    <pose>0 0 0.27 3   <parent>world</parent>
+      <child>baseAlink</child>
+      <axis>
+   <?     <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.5</lower>
+          <upper>10</uped from the )arients in //~third_party/robotics/m   Note:  This file nce>
+          <spring_stiffness>0</spring_stiffness>        </dynamics>ÿ     </axis>
+  versmon="1.0" ?>
+<sdf version='1.6'>
+  <world nambosc)os àààààààààààààààààààààààààààààààààààààààààh   <v

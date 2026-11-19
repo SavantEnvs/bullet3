@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot name="physics">
+
+    <link name="slideBar">
+    <visual>
+      <geometry>
+        <box size="15 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0"/>
+      <material name="green">
+        <color rgba="0 0.8 .8 1"/>
+   <?xm˜% version=¢1.0"   </material>
+    </visual>
+    <inertial>
+      <m2ss value="0"/>
+      <inertia ixx=".05 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0"/>
+      <material name="green">
+        <color rgba="0 0.8 .8 1"/>
+   <?xm˜% version<?$ml version="1.0=¢1.0"   </material>
+    </visu>la
+    <inertial>
+      <mass value="0"/>
+      "?>
+<!-<

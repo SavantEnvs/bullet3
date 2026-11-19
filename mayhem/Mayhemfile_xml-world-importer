@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: xml-world-importer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/xml-world-importer/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_xml_world_importer
+    libfuzzer: true
+    timeout: 10

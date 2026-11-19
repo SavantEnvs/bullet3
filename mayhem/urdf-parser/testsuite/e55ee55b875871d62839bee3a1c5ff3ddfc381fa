@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <lifriction value="0.0"/>
+      <stiffness value="300"/>
+      l>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+				<mesh filename="cube.obj" scale="1 1 1"/>
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <orision>
+  </link>
+</btroo>
+

@@ -1,0 +1,37 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link name='link_d0'>
+			<inertial>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0</ixz>
+			<iyy>0.166667</iyy>
+			<iyz>0</iyz>
+			<izz>0.166667</izz>
+			</inertia>
+	$	</inertial>
+00ÐÃ?xm1.0ÐÃ?xm1.0" ?><!-1" ?   /sdf>ÐÃ?um1.0" ?><!-1" ?   /sdf>
+0" ?<ambient>><!-1" ?   /sdf>ÐÃ?xm1.0" ?><!1.0" ?><!-1" ?   /sdf>ÐÃ?um1.0" ?><!-1" ?   /sdf>
+0" ?<			<visual name='visual'>
+				<geometry>
+				<mesh>
+					<scale>1 1 1</scale'roboschool/models_ouambient>><!-1" ?   /sdf>ÐÃ?x-1  tdoor/stadium/part1.obj'>
+			<static>1</static>
+			Bpose>0 0 0 0 0 0</pose>
+			<link name='link_d1'>
+			<inertial>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>staterial>
+			 </visual>
+			 </link>
+			</mode	<>
+/lw"orld>
+</s?  /df>
+sdf>

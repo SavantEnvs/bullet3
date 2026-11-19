@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg50_with_gripper'>
+    <pose>0 0 0.27 3.14 0 0</pose>
+	
+    <link name='world'>
+	</link>
+  
+    <joint name='base_joint' type='prismatic'>
+      <parent>world</parent>
+      <child>base_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.5</lower>
+          <upper>10</upper>
+          <effort>1</effort>
+          <velocity>1</velocity>
+        </limit>
+     !  <dynamics>
+          <damping>100</damping>
+          <friction>100</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+ <?xml version="1.0" ?>
+<!--Th<ixx>1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy       </box>
+        </geometry>
+      </collision>
+ mass of the base link has been set to 0, as needed by Bullet.
+    Note:  All of the g   ripper link poses h   <v

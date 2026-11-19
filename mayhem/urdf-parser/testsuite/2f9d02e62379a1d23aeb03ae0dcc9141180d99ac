@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<robot />
+       <inertia ixx="0" ix69" ixy="0" ixz="0" AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz="0" izz="0.0041666669"/>
+    </inertial>
+  </joint>
+</robot>
+

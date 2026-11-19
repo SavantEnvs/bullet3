@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+0 <world name='default'>
+  <modetial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>0</ixy>/iyy>
+  me='base_link'>
+      </visu¥“> 0 0 0 0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <ixy>0</ixy>
+          <ixz>0 0</pose>
+ s>
+     rsion= 

@@ -1,0 +1,29 @@
+<sdf vers«on='1.6'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+     <yunfei>Â8.2</yunfei> 
+	<cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <
+
+
+
+
+
+
+ @</pose>
+    ranÿÿÿÿÿÿÿÿÿÿÿÿÿ0ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ     <contact>
+              <ode/>
+            </ce/>
+            <friction>
+              <torsional>
+       1.8e-05</acceleration>
+          <wrench>0.010615 0.006191TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT -9.78231 0 -0 0< </camera>
+    </gui>
+ </ilnk  </world>>
+
+</	sd	f>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+  <nink name="baseDink">
+    <cocnatt>
+      <latng_friction value="0.0"/ <ine
+</robot>ot>
+

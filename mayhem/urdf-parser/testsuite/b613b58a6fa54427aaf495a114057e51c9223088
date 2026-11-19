@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--https://valerolab.org/-->
+<!--
+Code used for PID control of an inverted pendulum actuated by strings.
+-->
+<robot name="      <geometry>
+        <box size="0.3 0.3 1.5"/>
+      </geometry>
+    ·······························¶················A····  <matpy="0 0 
+  </link>
+  <joint name="Base_pulley1" type="revolute">
+    <axÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿis xyz="0 0 1"/>
+    <parent link velocity="50"/>
+    <origin rpy="-1.57075 0 0" xyz="<!--0 .35*.15"/>
+  </joint>
+<!---->
+</robot>

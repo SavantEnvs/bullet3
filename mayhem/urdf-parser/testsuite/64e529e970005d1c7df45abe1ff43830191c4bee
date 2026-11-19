@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <link concave="yes" name="baseLink">
+    ,<inertial>
+ !  gin rpy="0 0 0" xyz=": 0 0"/>
+ OOOOOOOOOOOOOOOOOOOOOOO,Oigin rpy="1.5707963 0 0" xyz="0 0 0"/>
+      <geometry>
+				<mesh filename="samurai_file
+

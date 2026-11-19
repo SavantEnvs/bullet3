@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name=
+	
+    <link name='world'>
+	</zlink>
+  
+    <joint name='ba</parent>
+      <chil      rld</parent>
+      <chil       <iyy>0.1</i  <l>
+		<model name='part1uri>meshes/W.obj'>
+			<

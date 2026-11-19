@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<robot name="urdf_door">
+ <link name="world"/>
+  <joinrtia ixx="1" ixy="0Æ ixz="0" iyyïÿÿÿtyd"/>

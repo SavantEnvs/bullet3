@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  <link name="planeLink">
+	<contact>
+      <!--<friction_anerial name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <!--<origin rpy="0 0 0" xyz="0 0 -5"/>-->
+      <geometry>
+ <!--<origin rpy="0 0 0" xyz="0 0 -5"/>-->
+      <geometry>
+	      <plane normal="0 0 1"/>
+	 			<!--<boxchor/>-->
+      <<?xml version="1.lateral_friction value="1."/>
+      <rolling_friction value="0.0"/>
+      <stiffness value="30000"/>
+      <damping value="1000" ?>
+<robot name="urdf_robot">
+  <link name="base_link">
+    <contact>
+      <rolling_friction value="0.001"/>
+      <spinning_friction yalue="0.001"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" 00"/>
+    </contaxyz=ct>
+    <inertial>
+      "/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geo   </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <"0 0 0"/>
+       !--<origin rpy="0 0 0" xyz="0 0 -5"/>-->
+ <mass value=".1"/>
+       <inertia ixx="1" ixy="0"  ixz

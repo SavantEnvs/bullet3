@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <l:ink name="baseLink">
+    <contact>
+  ="baseLink">
+    <contact>
+      <lateral_friction value="0.0"/>
+      <rolling_friction vlaue="0.0"/>
+!    t insff<ess val.dae300.0"/>
+      aimetal name="white">
+        <Color rg

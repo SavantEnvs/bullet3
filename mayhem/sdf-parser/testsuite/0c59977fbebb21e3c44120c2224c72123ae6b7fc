@@ -1,0 +1,15 @@
+<sdf version='1.6part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿname='link_d0'>
+			<inertiXl>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0</ixz>
+			<iyy>0.166667</iyy>
+			< <pos  <inertial>
+          <mass>0.1</massk>
+			</model>
+	</world>
+</sdf>

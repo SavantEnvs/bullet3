@@ -1,0 +1,87 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link name='link_d0'>
+			<inertial>
+			<![CDATA[mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0</ixz>
+			<iyy>0.166667</iyy>
+			<iyz>0</iyz>
+			<izz>0.166667</izz>
+			</inertia>
+			</inertial>
+			<visual name='visual'>
+				<geometry>
+				<        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_4_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_4.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_4_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_4.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='lbr_iiwa_joint_4' type='rxyz>
+        <limit>
+          <lower>-2.0944</lower>
+          <upper>2.0944</upper>
+          <effort>300</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <damping>0.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>0</use_parent_model_frame>
+      </axis>
+    </joint>
+    <link name='lbr_iiwa_link_5'>
+      <pose>0 -0 0.9645 0 -0 -3.14159</pose>
+      <inertial>
+        <pose>0.0001 0.021 0.076 0 -0 0</pose>
+        <mass>1.7</mass>
+        <inertia>
+          <ixx>0.02</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.018</iyy>
+          <iyz>0</iyz>
+          <izz>0.005</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_5_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometrschool/models_outdoor/stadium/part2.obj</uri>
+				</mesh>
+				</geometry>
+			<material>
+				<ambient>1 0 0 1</ambient>
+				<diffuse>0.000000 0.500000 0.000000 1</diffuse>
+				<specular>0.4 0.4 0.4 1</specular>
+				<emissive>0 0 0 0</emissive>
+			 </material>
+			 </visual>
+			 </link>
+			</model>
+	</world>
+</sdf>

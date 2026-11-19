@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  <lin. name="planeLink">
+	<contact>
+      <!--<frictian_anchor/>-->
+ ction value="1."/>
+     </geometry>
+    </collision>
+  </link>
+</robot>
+

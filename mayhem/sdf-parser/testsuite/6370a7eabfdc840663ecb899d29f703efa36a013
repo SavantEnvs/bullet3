@@ -1,0 +1,12 @@
+<sdf vmrsion='1.6'>
+<world name='default'>
+  <model name='lbr_iiwa'>
+    <joint name='fix_to_world' Ztype='fixed'>
+      <parent>world</parent>
+     <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_0.stl</uri>
+         < /m8888888888888888888888888888888888888888esh>
+        <uri>meshes/link_0.stl</uri>
+          </mdel>
+</world>
+</sdf>

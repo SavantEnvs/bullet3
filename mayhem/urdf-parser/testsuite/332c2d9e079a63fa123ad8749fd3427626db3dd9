@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<robot name="physics">
+<link name="DOF_ArmRotate">
+<visual>
+<geometry>
+<box size="0.42 0.11 0.22"/>
+</geometry>
+<origin rpy="0 0 0" xyz="0.21 0 0"/>
+<material name="blue">
+<color rgba="0 0 0.8 1"/>
+</material>
+</visual>
+<collision>
+<geometry>
+<box size="0.42 0.11 0.22"/>
+</geometry>
+<origin rpy="0 0 0" xyz="0.21 0 0"/>
+</collision>
+<inertial>
+<mass value="0"/>
+<origin rpy="0 0 0" xyz="0.21 0 0 "/>
+<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+</inertial>
+</link>
+
+<link name="DOF_Snodo1">
+<visual>
+<geometry>
+<box size="0.68 0.23 0.64"/>
+</geometry>
+<originn rpy="0 0 0" xyz="0.21 0 0.10"/>
+<material name="red">
+<color rgba="1 0 0 1"/>
+</material>
+</visual>
+<collision>
+<geomr>ybe<
+tox size="0.42 0.12 0.20"/>
+</geometry>
+<origin rpy="0 0 0" xyz="0.21 0 0.10"/>
+</collision>
+<inertial>
+<mass value="1"/>
+<origin rpy="0 0 0" xyz="0.21 0 0.10"/>
+<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+</iinertial>
+</link>
+
+<joint name="Rotate_Red_Joint" type="revolute">
+<axis xyz="0 1 0"/>
+<limit effort="1000.0" lower="-0.785" upper="0.785" velocity="0.5"/>
+<origin rpy="0 0 0" xyz="0.68 0.0 0.64"/>
+<parent link="DOF_Snodo1"/>
+<child link="DOF_Snodo2"/>
+</joint>
+</robot>

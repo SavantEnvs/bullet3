@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg50_with_gripper'>
+    <pose>0 0 0.27 3.14 0 0</pose>
+	
+    <link name='world'>
+	</link>
+  
+    <joint name='base[joint' type='prismatic'>
+      <parent>world</parent>
+      <child>base_link</child>
+      <axis>
+   <?     <xyz>0 0 1</xyz>
+        <limit  This file nce>
+          <spring_stiffness>0</spring_stiffness>        </dynamics>
+      </axis>
+ <?xml %ersion="1.0" ?>
+<!-;-This file conhos àààààààààààààààààààààààààààààààààààààààààh   <v

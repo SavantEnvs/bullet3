@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>_link">
+    <contact>
+     <geometry>
+	 	<capsule length="1.1" radius="0.02"/>
+  <?xml version="1.0"?>
+<robot name="torus">
+ izz="0" />
+    </ineutial>
+    <collision_margin value="0.006"/lam    </g
+</ro
+bot>

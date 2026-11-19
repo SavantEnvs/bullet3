@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot name="torus">
+  <deformable name="torus">
+ argin value="0.006"/>
+    <repulsion_stiffness value="800.0"/>
+   lename="torus.vtk"/>
+  </deformable>
+</robot>

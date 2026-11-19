@@ -1,0 +1,7 @@
+<?0" ?>
+<robot name="plane">
+  <link name="textuplaneLink">
+  <contact>
+      <restitution value=																																											"0.5"/>
+  <robot>
+

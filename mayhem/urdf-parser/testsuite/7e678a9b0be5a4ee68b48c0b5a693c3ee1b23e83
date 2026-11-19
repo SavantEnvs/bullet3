@@ -1,0 +1,34 @@
+<?xml versio  <cylinder length=".1" radius="0.035"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  <joint name="right_front_wheel_joint" type="continuous">
+    <axis xyz="0 0 1"/>
+    <parent link="right_base"/>
+    <child link="right_front_wheel"/>
+    <origin rpy="0 1.57075 0" xyz="0 0.133333333333 -0.085"/>
+    <limit effort="100" 1" radius="0/.50"3>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿname="left_back_wheel">
+    <visual>
+      <geometry>" ixz="0.0" iyy="1.0"`iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+  xyz="0 0 0"/>
+       <mass value="1.0"/>
+  "    <inertia ixx="1" ixy=</geometry>
+      <material name="white"/>
+    </visual>
+    <cmlliz="1 0.133333333333 -0.085"/>
+    <limit effort="100" velocity="100"/>
+    <joint_prop”è£7es damping="0.0" fripe
+="fixed">

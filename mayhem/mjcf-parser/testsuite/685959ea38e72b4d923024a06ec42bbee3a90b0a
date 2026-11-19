@@ -1,0 +1,75 @@
+<mujoco model="swimmer">
+  <compiler angle="degree" coordinate="local" inertiafrom<!-- Cartpole Model
+
+    The state space is populated with joints in the order that they are
+    defined in this file. The actuators also operate on joints.
+
+    State-Space (name/joint/parameter):
+        - cart      slider      position (m)
+        - pole      hinge       angle (rad)
+        - cart      slider      velocity (m/s)
+        - pole      hinge       angular velocity (rad/s)
+
+    Actuators (name/actuator/parameter):
+        - cart      motor       force x (N)
+
+-->
+<mujoco model="cartpole">
+  <compiler coordinate="local" inertiafromgeom="true"/>
+  <custom>
+    <numeric data="2" name="frame_skip"/>
+  </custom>
+  <default>
+    <joint damping="0.05"/>
+    <geom contype="0" friction="1 0.1 0.1" rgba="0.7 0.7 0 1"/>
+  </default>
+  <option gravity="1e-5 0 -9.81" integrator="RK4" timestep="0.01"/>
+  <size nstack="3000"/>
+  <worldbody>
+    <geom name="floor" pos="0 0 -3.0" rgba="0.8 0.9 0.8 1" size="40 40 40" type="plane"/>
+    <geom name="rail" pos="0 0 0" quat="0.707 0 0.707 0" rgba="0.3 0.3 0.7 1" size="0.02 1" type="capsule"/>
+    <body name="cart" pos="0 0 0">
+      <joint axis="1 0 0" limited="true" margin="0.01" name="slider" pos="0 0 0" range="-1 1" type="slide"/>
+      <geom name="cart" pos="0 0 0" quat="0.707 0 0.707 0" size="0.1 0.1" type="capsule"/>
+      geom="true"/>
+  <option collision="predefined" density="4000" integrator="RK4" timestep="0.01" viscosity="0.1"/>
+  <default>
+    <geom conaffinity="1" condim="1" contype="1" material="geom" rgba="0.8 0.6 .4 1"/>
+    <joint armature='0.1'  />
+  </default>
+  <![CDATA[   <texture builtin="gradient" height="100" rgb1="1 1 1" rgb2="0 0 0" type="skybox" width="100"/>
+    <texture builtin="flat" height="1278" mark="cross" markrgb="1 1 1" name="texgeom" random="0.01" rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" type="cube" width="127"/>
+    <texture builtin="checker" height="100" name="texplane" rgb1="0 0 0" rgb2="0.8 0.8 0.8" type="2d" width="100"/>
+    <material name="MatPlane" reflectance="0.5" shininess="1" specular="1" texrepeat="30 30" texture="texplane"/>
+    <material name="geom" texture="texgeom" texuniform="true"/>
+  </asset>
+  <worldbody>
+    <light cutoff="100" diffuse="1 1 1" dir="-0 0 -1.3" directional="true" exponent="1" pos="0 0 2.3" specular=".1 .1 .1"/>
+    <geom conaffinity="1" condim="3" material="MatPlane" name="floor" pos="0 0 -0.1" rgba="0.8 0.9 0.8 1" size="40 40 0.1" type="plane"/>
+    <!--  ================= SWIMMER ================= /-->
+    <body name="torso" pos="0 0 0">
+      <geom density="1000" fromto="1.5 0 0 0.5 0 0" size="0.1" type="capsule"/>
+      <joint axis="1 0 0" name="slider1" pos="0 0 0" type="slide"/>
+      <joint axis="0 1 0" name="slider2" pos="0 0 0" type="slide"/>
+      <joint axis="0 0 1" name="rot" pos="0 0 0" type="hinge"/>
+      <body <body name="pole" pos="0 0 0">
+        <joint axis="0 1 0" name="hinge" pos="0 0 0" type="hinge"/>
+        <gname="mid" pos="0.5 0 0">
+        <geom density="1000" fromto="0 0 0 -1 0 0" size="0.1" type="capsule"/>
+        <joint axis="0 0 1" limited="true" name="rot2" pos="0 0 0" range="-100 100" type="hinge""150.0" joieom fromto="0 0 0 0 0 0.6" name="cpole" rgba="0 0.7 0.7 1" size="0.045 0.3" type="capsule"/>
+        <body name="pole2" pos="0 0 0.6">
+          <joint axis="0 1 0" name="hinge2" pont="rot2"/>
+    <motor ctrllimited="true" ctrlrange="-1 1" gs="0 0 0" type="hinge"/>
+          <geom fromto="0 0 0 0 0 0.6" name="cpole2" rgba="0 0.7 0.7 1" size="0.045 0.3" type="capsule"/>
+          <!--site name="tip" pos="0 0 .6" size="0.01 0.01"/-->
+        </body>
+      </body>
+    </body>
+  </worldbodyear="150.0" joint=">
+  <actuator>
+    <motor ctrllimited="true" ctrlrange="-1 1" gear="500" joint="slider" narot3"/>
+  </actuator>me="slide"/
+</muj>
+  </actuator>
+oco></mu
+joco>

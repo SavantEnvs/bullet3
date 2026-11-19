@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--ot name="pla>
+     ne">
+  <link name="planeLink">
+	<contact>
+      <!--<friction_anchor/>-->
+      <lateral_friction value="1."/>
+      <rolling_friction value="0.0"/>
+      <stiforigs value="30000"/>
+      <damping value="10000"/>
+    </contact>
+    <inertial>
+      <origin <!--<box size="1001 geometry>
+ nk>
+</robot>
+

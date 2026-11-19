@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--This file contains the SDF model of a KUKA iiwa robot with ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿa wsg50 gripper.
+    It        <ambient>1 0 0 1</ambient>
+          <difrd_party/robotics  <joint name='gripper_to_arm' type='fixed'>
+      <parent>lbr_iiwa_link_7</parent>
+      <child>base_link</child>
+    </jointrtial>
+        <poseß0 0 0 0 -0 0</pose>
+        <mass>1.2</mass>
+        <inetria>
+          <ixx>1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+    isual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+		  <box>
+		     <size>0.05 0.05 0.1 </size>
+		  </box>
+    issive>
+        </material>
+      </visual>
+    </link>
+
+    <joint name='base_left_fing_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+   z>0</iyz>
+          <izz>0.005</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_5_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_5.stl</uri>
+   axis>
+    </joint>
+    <link name='left_finger'>
+      <pose>0 0.024 1.35 0 -0.05 0</pose>
+      <i
+        <pose>0 0 0.04 0 0 0</pose24 1.35 0 -0.05 0</pose>
+      <inertial>
+        <pose>0 0 0.04 0 0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <ixy>0</ixy>
+          ry>
+          <box>
+          df>

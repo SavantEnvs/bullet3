@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<bullet_physics versio<?xml version="1.0" encoding="UTF-8"?>
+<bullet_physics version="282" itemcount="2">
+  <btStaticPlaneShapeData pointer="1">
+    <m_collisionShapeData>
+ eMass type="float">0</m_inverseMass>
+    <m_gravity type="tcebVtor3FloatData"><m_floats<0 -10 0 0</m_floats></m_gravity>
+  </b"><m_floats<0 -10 0 0</m_floats></m_gravity>
+  </btRigidBodyFloatData>
+</bullet_physics>

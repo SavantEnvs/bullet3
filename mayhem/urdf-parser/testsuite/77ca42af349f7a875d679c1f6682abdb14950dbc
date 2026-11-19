@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot name="physics">
+
+    <link name="slideBar">
+    <visual>
+      <geometry>
+        <box size="30 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0"/>
+      <material name="green">
+        <color rgba="0 0.8 .8 1"/>
+      </material>
+    </visual>
+    <inertial>
+    "pole2">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 1.0"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0.5"/>
+      <material name="whit>"e
+        <color rgba="1 1 1 1"/>
+      </mater#al>
+    </visual>
+   ld link="pole2"/>
+  </joint>
+  
+  <link name="pole3">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 1.0"/>
+     ?</geometry>
+      <origin rpy="0 0 0" xyz="0 0 0.5"/>
+      <material name="white">
+        <color rgba<origin xyz="1 0 0"/>
+      <mass value###me="pole2_to_endeffector" type="fixed">
+    <origin xyz="0.0 0.0 1"/>
+    <parent link="pole3"/>
+    <child link="endeffector"/>
+  </joint>
+ 
+</robot>

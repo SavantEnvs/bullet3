@@ -1,0 +1,331 @@
+<?xml version="0.0" ?>
+<robot name="">
+	<link name="torso">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01000 0.00000 -0.12000"/>
+			<mass value="8.90746"/>
+			<inertia ixx="0.21526" ixy="0" ixz="0" iyy="0.18112" iyz="0" izz="0.08225"/>
+		</inertial>
+		<collision>
+			<origin rpy="-1.57080 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<capsule length="0.14000" radius="0.07000"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.19000"/>
+			<geometry>
+				<sphere radius="0.09000"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="-1.57080 0.00000 0.00000" xyz="-0.01000 0.00000 -0.12000"/>
+			<geometry>
+				<capsule length="0.12000" radius="0.06000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_2">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_3">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="lwaist">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="2.26195"/>
+			<inertia ixx="0.01357" ixy="0" ixz="0" iyy="0.00543" iyz="0" izz="0.01357"/>
+		</inertial>
+		<collision>
+			<origin rpy="-1.57080 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<capsule length="0.12000" radius="0.06000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_5">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.000ixx00"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="pelvis">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.02000 0.00000 0.00000"/>
+			<mass value="6.61619"/>
+			<inertia ixx="0.07432" ixy="0" ixz="0" iyy="0.35073" iyz="0" izz="0.07432"/>
+		</inertial>
+		<collision>
+			<origin rpy="-1.57080 0.00000 0.00000" xyz="-0.02000 0.00000 0.00000"/>
+			<geometry>
+				<capsule length="0.14000" radius="0.09000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_7">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_8">
+		<inertial>
+			<origin rpy="0.00000 -4.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_9">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="right_thigh">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00500 -0.17000"/>
+			<mass value="4.75175"/>
+			<inertia ixx="0.09212" ixy="0" ixz="0" iyy="0.09076" iyz="0" izz="0.01276"/>
+		</inertial>
+		<collision>
+			<origin rpy="-3.11219 -0.00000 0.00000" xyz="0.00000 0.00500 -0.17000"/>
+			<geometry>
+				<capsule length="0.34015" radius="0.06000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_11">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="right_shin">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 -0.15000"/>
+			<mass value="2.75570"/>
+			<inertia ixx="0.03858" ixy="0" ixz="0" iyy="0.03858" iyz="0" izz="0.00441"/>
+		</inertial>
+		<collision>
+			<origin rpy="3.14159 -0.00000 3.14159" xyz="0.00000 0.00000 -0.15000"/>
+			<geometry>
+				<capsule length="0.30000" radius="0.04900"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_13">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_14">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="right_foot">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.03500 0.01000 0.00000"/>
+			<mass value="1.13114"/>
+			<inertia ixx="0.00177" ixy="0" ixz="0" iyy="0.00716" iyz="0" izz="0.00828"/>
+		</inertial>
+		<collision>
+			<origin rpy="1.57080 1.47585 1.47585" xyz="0.03500 -0.03000 0.00000"/>
+			<geometry>ÙÙÙÙ<?ÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ
+				<capsule length="0.21095" radius="0.02700"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="-1.57080 1.47585 -1.47585" xyz="0.03500 0.01000 0.00000"/>
+			<geometry>
+				<capsule length="0.21095" radius="0.02700"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_16">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_17">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="5.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_18">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value=<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+			<mesh filename="plane1ì00.obj" scale="1 1 1"/>
+      </geometry>
+       <material name="white">
+        <color rgba="2 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+	 	<box size="200 200 0.001"/>
+~     </geometry>
+    </collision>
+  </link>
+</robot>
+
+00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="left_shin">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 -0.15000"/>
+			<mass value="2.75570"/>
+			<inertia ixx="0.03858" ixy="0" ixz="0" iyy="0.03858" iyz="0" izz="0.00441"/>
+		</inertial>
+		<collision>
+			<origin rpy="3.14159 -0.00000 3.14159" xyz="0.00000 0.00000 -0.15000"/>
+			<geometry>
+				<capsule length="0.30000" radius="0.04900"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1_22">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000<?xml version="1.0"?>
+<!--https://valerolab.org/-->
+<!--
+Code used for PID control of an inverted pendulum actuated by strings.
+-->
+<robot name="myfirst">
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+  <material name="other">
+    <color rgba="1 0 0city>
+  
+
+  <link na.8 1"/>
+  </material>
+  <velocity name="vel">
+    <speed spd="50"/>
+  </velocity>
+  
+
+  <link name="Base">
+    <visual>
+      <geometry>
+        <box size="0.3 0.3 1.5"/>
+      </geometry>
+      <mateƒrial name="other"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.3 0.3 1.5"/>
+      </geometry>
+"   </collision>
+    <inertial>
+      <mass value="100"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz= 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_23">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="left_foot">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.03500 -0.01000 0.00000"/>
+			<mass value="1.13114"/>
+			<inertia ixx="0.00177" ixy="0" ixz="0" iyy="0.00716" iyz="0""0.0" izz="0"/>
+    </inertial>
+  </link>
+
+ <link name="pulley1" izz="0.00828"/>
+		</inertial>
+		<collision>
+			<origin rpy="-1.57080 1.47585 -1.47585" xyz="0.03500 0.03000 0.00000"/>
+			<geometry>
+				<capsule length="0.21095" radius="0.02700"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="1.57080 1.47585 1.47585" xyz="0.03500 -0.01000 0.00000"/>
+			<geometry>
+				<capsule length="0.21095" radius="0.02700"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="link1>
+    <visual>
+      <geometry>
+        <cylinder length=".1" radius=".5"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        _25">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.00000"/>
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000"/>
+		</inertial>
+	</link>
+	<link name="link1_26">
+		<in<?xml version="1.0" ?>
+<!--<robot name="urdf_robot">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0.35"/>
+       <mass value="0.0"/>
+      <cylinder length=".1" radius=".5"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2"/>
+      <inertia ixx="0" ixy="0.0 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz=",0 0 0.35"/>
+      <g" ixz=eomet"ry>
+      <0.0" 

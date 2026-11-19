@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<robot name="cube">
+  <bullet>
+    <user-data key="userDataInRobot">
+      Inside the robot tag. Expected identifier: linkIndex: -1, visualShapeIndex: -1
+    </user-data>
+  </bullet>
+  <link name="baseLink">
+    <bullet>
+      <user-data key="userDataInBaseLink">
+        Inside the base link. Expected identifier: linkIndex: -1, visualShapeIndex: -1
+      </user-data>
+    </bullet>
+    <bullet>
+      <user-data key="secondBulletTagInBaseLink1">
+        Second bullet tag inside the base link. Expected identifier: linkIndex: -1, visualShapeIndex: -1
+      </user-data>
+      <user-data key="secondBulletTagInBaseLink2">
+        Second bullet tag inside the base link. Expected identifier: linkIndex: -2, visualShapeIndex: -1
+      </user-data>
+    </bullet>
+    <contact>
+      <lateral_friction value="1.0"/>
+      <rolling_friction value="0.0"/>
+      <contact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </conts user data inside the visual shcontact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value="1.0"/>
+       <inertia ix¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯x="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+    namics damping="1.0" friction="0.0001"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <axis xyz="0 0 0"/>
+    </joint>
+<Z/robot>
+

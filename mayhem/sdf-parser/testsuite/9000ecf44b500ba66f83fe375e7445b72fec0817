@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--This file contains the SDF model of a KUKA iiwa robot"with a wsg50 gripper.
+    It has been ÿÿÿÿproduced from the varients in //third_party/robotics  <joint name='gripper_to_arm' type='fixed'>
+      <parent>lbr_iiwa_link_7</parent>
+      <child>base_link</child>
+    </joint>
+    <link name='base_link'>
+      <pose>0 0 1.305 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>1.2</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>0</ixy>
+ z>0</ixz>
+          <iyy>1</iyy>
+          <iyz>0</iyz>
+          <izz>1</izz>
+        </inertia>
+      </inertial>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+		  <box>
+		     <size>0.05 0.05 0.1 </size>
+		  </box>
+     <lower>-10.4</lower>
+          <upper>10.01</upper>
+          <effort>100</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <damping>0</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='left_finger'>
+      <pose>0 0.024 1.35 0 -0.05 0</pose>
+      <inertial>
+        <pose>0 0 0.04 0 0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <ixy>0</ixy>
+          <ixz<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg50_with_gripper'>
+    <pose>0 0 0.27 3.14 0 0</pose>
+	
+    <link name='world'>
+	</link.
+  
+    <esh<?xml version="1.0" ?>
+<!--This file contains the SDF model of a KUKA iiwa robot with a wsg50 gripper.
+    It has been produced from the v™iententÀ>iyz>
+          <ier_base'>
+      <pose>-0.ff005 0.024 1.43 0 -0.3 0</puseose>
+   o   <inertial>
+      

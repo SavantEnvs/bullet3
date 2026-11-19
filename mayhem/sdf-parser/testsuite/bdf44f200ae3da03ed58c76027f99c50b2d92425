@@ -1,0 +1,11 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</po			<ixy>0</ixy>
+			<i>
+			</inertia>
+ripper_ri
+	</world>
+</sdf>

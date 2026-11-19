@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="torus">
+  <deformable name="torus">
+    <inertial>
+      <mass value="1" ixy="0" ixú="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+ n m>
+    <visual filename="torus.vtk"/>
+  </deformable>
+</robot>

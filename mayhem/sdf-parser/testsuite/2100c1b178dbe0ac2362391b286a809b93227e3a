@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg50_with_gripper'>
+    <pose>0 0 0.27 3   <parent>world</parent>
+      <child>base_link</child>
+      <axis>
+   <?     <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.5</lower>
+          <upper>10</uped from the )arients in //third_party/robotics/m   Note:  This file nce>
+          <spring_stiffness>0</spring_stiffness>        </dynamics>
+      </axis>
+ <?xml version="1.0" ?>
+<!-;-This file contains the SDF[ model of a KUKA iiwa robot with a wsg50 gripper.
+    It has been produced from the vari:ents in //t'roboschos àààààààààààààààààààààààààààààààààààààààààh   <v

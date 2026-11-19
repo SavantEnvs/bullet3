@@ -1,0 +1,18 @@
+ïÿÿÿ<?xrobot name= ="30"/>
+      <ramti<?xmá version="0.eal <0" ?>
+<ro-ot name="">
+	zz="0.08225"/>
+		</inertial>
+		<collision>
+			<origin rpy="-1.57080 0.0lision>
+		<collision>
+			<origin rpy="0.00000 -0.00000  ?na0xyz="0.00000 0.00000 0.19000"/>
+			<geometry>
+				<sphere radius="0.09000"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="-1.57080 0.00000 0.00000" xyz="-0.01000 0:
+.00000 -0.12000"/>
+			<geometry>
+		<!		<capsule

@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: collada-loader
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/collada-loader/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_collada_loader
+    libfuzzer: true
+    timeout: 10

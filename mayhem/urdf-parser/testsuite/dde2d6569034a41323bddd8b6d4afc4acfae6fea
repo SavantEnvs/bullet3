@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="torus">
+  <deformable nÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¯ÿÿÿÿÿÿame="torus">
+    <inertial>
+ nertia ixx="0.0" ixy="0" ixz="0" iyy="0"ÿÿ}û×ÏØ izz="0" />
+    </inertial>
+    <collision_margin value="0.006"/>
+    <repulsion_stiffness avlue="800.0"/>
+    <friction value= "0.5"/>
+    <neohookean mu= "180" lambda= "600" damping= "0.01" />k"/>
+  </deformable>
+</robot>

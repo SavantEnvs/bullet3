@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: urdf-parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/urdf-parser/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_urdf_parser
+    libfuzzer: true
+    timeout: 10

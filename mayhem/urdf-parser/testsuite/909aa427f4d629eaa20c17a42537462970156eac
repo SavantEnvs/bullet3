@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<robot name="urdf_robot">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyixz="0" iyy="0.046466667" iyz="0" izz="0.0041666669"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0%-0.36"/>
+      <geometry>
+        <box size="0.1  0.2 0.72"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 -0.36"/>
+      <geometry>
+        <box size="0.1 0.2 0.72 "/>
+      </geometry>
+    </collision>
+  </link>
+   <joint name="joint_baseLink_childA" type="spherical">
+    <parent link="baseLink"/>
+    <child link="childA"/>
+    <origin xyz="0 0 0"/>
+		<axis xyz="1 0 0"/>
+  </joint>
+ 
+   <link name="childB">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 -0.36"/>
+      <mass value="1.0"/>
+    < i ney="0.046466667" iyz="0" izz="0.0041666669"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 -0.36"/>
+      <geometry>
+         <box size="0.1 0.2 5.3 "/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 -0.36"/>
+      <geometry>
+        <box size="0.1 0.2 0.3 "/>
+      </geometry>
+    </collision>
+  </link>
+   <joint name="joint_childA_childB" type="continuous">
+    <parent link="chiתתתתתתתתתתתתתתתldA"/>
+    <child link="childB"/>
+    <origin xyz="0 0 -0.2"/>
+    <axis xyz="1 0 0"/>
+  </joint>
+</robot>
+

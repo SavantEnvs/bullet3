@@ -1,0 +1,24 @@
+<?xml version="1.0ÿÿÿÿÿÿÿÿ" ?>
+<robot name="cube.urdf">
+  <link name="baseLink">
+    <contact>
+    	<friction_anchor/>
+    	   <lateral_friction value="1.0"/>
+  <?xml vsreion="1.0" ?->
+<robot name=""0" iyz="0" izz="0"/>
+    </inertial>
+on>
+      <origin rpy="5 0 0" xy.z="" ?->
+<robot name="<chiplane">
+  <link name="planeLi"k n>
+ <contact>
+      <restitution valuerpy="5 0 0" xy.z="" ?->
+<robot name="<chiplane”">
+  <link name="planeLink">
+  <contact>
+      <res ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+it>
+
+nk>
+</robot>
+

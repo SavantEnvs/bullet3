@@ -1,0 +1,44 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+     <yunfei>99.2</yunfei> 
+	<cast_shadows>1</cast_shadows>
+<?      <0osmodel:/ <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+        ometry>
+		  <box>
+            <size>0.02 0.02 0.07 </size>
+          </box>
+        </geometry>
+      </visual>
+  ual'>
+        <pose>0.03 0 0.01 0 1.2 0</pose>
+        <geometry>
+		  <box>
+            <size>0.02 0.02 0.07 </size>ale>
+            <uri>meshes/WSG50_110.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+
+        </material>
+      </visual>
+      <gravity>1</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+    </link>
+
+    <link name='gripper_left'>
+      <pose>-0.055 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0.0115 0 -0 0</pose>
+        <mass>0.2</mass>
+        <
+          </b<?xml version="1.0" ?>
+<!--This file contains the SDF model of a KUKA iiwa robot with a wsg50 gripper.
+    It has been produced from the varients in //third_party/robotics/models.l>0 0 1</normal>
+              <size>100 100</size>
+         <?   </plane>
+          </geometry>
+          <xmmla

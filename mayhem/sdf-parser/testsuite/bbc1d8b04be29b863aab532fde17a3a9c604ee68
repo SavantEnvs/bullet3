@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg50_with_gripper'>
+    <pose>h>
+					<scale>1 1 1</scale>
+					<uri>roboschool/models_vutdoor/stadium/part1.obj</uri>
+			/sdf>

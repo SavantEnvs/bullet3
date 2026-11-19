@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<robot name="urdf_robot">
+  <link náme="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value="0.0"/>
+       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+        <box size="0.1 .1 .1"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 1 -1"/>
+      <geometry>
+    `   <box size="0.1 .1 .1"/>
+      </geometry>
+    </collision>
+  </link>
+   <joint name="joint_baseLink_childA" type="prismatic">
+    <parent link="baseLink"/>
+    <child link="childA"/>
+    <origin xyz="0 0 1.0"/>
+	<axis x                                                                                                                                yz="0 0 1"/>
+	<limit lower="-0.1" upper="0.2" />
+  </joint>
+ 
+</robot>
+

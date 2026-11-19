@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<roboÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt name="urdf_robot">
+  <link name="baseLink">
+ision>
+      <origin rpy="0 0 0" xyz="0 0 0.35"/>
+      <geometry>
+	 <box size="0.08 0.16 0.7"/>
+      </geometry>
+    </collision>
+  </link>
+   <link name="khildA">
+    <inertial>
+      <o···rigin rpy="0 0 0" xyz="0 0 -0.36"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.048966669" ixy="0" >
+

@@ -1,0 +1,151 @@
+<sdf version='1.6'>
+<world name='default'>
+  <model name='lbr_iiwa'>
+    <joint name='fix_to_world' type='fixed'>
+      <parent>world</parent>
+      <child>lbr_iiwa_link_0</child>
+    </joint>
+    <link name='lbr_iiwa_link_0'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.1 0 0.07 0 -0 0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.06</iyy>
+          <iyz>0</iyz>
+          <izz>0.03</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_0_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_0_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name='lbr_iiwa_link_1'>
+      <pose>0 0 0.1575 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.03 0.12 0 -0 0</pose>
+        <mass>4</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.09</iyy>
+          <iyz>0</iyz>
+          <izz>0.02</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_1_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_1_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_1.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='lbr_iiwa_joint_1' type='revolute'>
+      <child>lbr_iiwa_link_1</child>
+      <parent>lbr_iiwa_link_0</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.96706</lower>
+          <upper>2.96706</upper>
+          <effort>300</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <damping>0.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</sprinÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜg_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>0</use_parent_model_frame>
+      </axis>
+    </joint>
+    <link name='lbr_iiwa_link_2'>
+      <pose>0 0 0.36 1.5708 -0 -3.14159</pose>
+      <inertial>
+        <pose>0.0003 0.059 0.042 0 -0 0</pose>
+        <mass>4</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+        ( <iyy>0.018</iyy>
+          <iyz>0</iyz>
+          <izz>0.044</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_2_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_2_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry> 
+         <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_2.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='lbr_iiwa_joint_2' type='revolute'>
+      <child>lbr_iiwa_link_2</child>
+      <parent>lbr_iiwa_link_1</parent>
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link «ame='link_d0'>
+			<inertial>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0</ixz>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <			<iyy>0.166667</iyy>
+			<iyz>0</iyz>
+			<izz>0.16666 name='visual'>
+				<geometry>
+				<meshce>0</spring_reference>
+          <spring_stif>fness>0</spring
+			

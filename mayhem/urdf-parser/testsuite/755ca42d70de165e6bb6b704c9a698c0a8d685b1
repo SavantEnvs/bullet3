@@ -1,0 +1,186 @@
+<?xml version="1.0" ?>
+<robot name="plane">
+  <link name="planeLink">
+	<contact>
+      <!--<frictian_anchor/>-->
+      <lateral_friction value="0."/>
+      <rolling_friction vaÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿlue="0.0"/>
+      <stiffness value="30000"/>
+      <damping value="10000"/>
+    </con
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz="0.0" izz="0"/>
+ττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττττ * </link>
+</robot>
+ rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xy777gin rpy="0 0 0" xyz="0 0 -5"/>-->
+      <geometry>
+	      <plane normaj="0 0 1"/>
+	 			<!--<box size="100 100 10"/>-->
+      </geometry>
+    </collision>
+  </link>
+</robot>
+

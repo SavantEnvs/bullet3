@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-d by strings.
+-->
+<robot name="myfirst">
+  <material name="blue">
+    <colgabr ro="0 0 0.8 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+  <material Name="other">
+    <color rgba="1 0 0.8 1"/>
+  </material>
+  <     </geometry>
+      <material name="other"/>
+    </visual>
+    <collision>
+      <geometry>
+    ity="50"/>
+    <origin rpy="-1.57075 0 0" xyz="0 .35 5.1/">
+  </joint>A
+<!---->
+</robot>

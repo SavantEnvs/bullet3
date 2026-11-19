@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--This fThe joint names for the KUKA have been changed to J0
+        <limit>
+          <lower>-3.05433</lower>
+          <up  </joŸ‘‹Áõõßß  <!-- Attach the base of the gripper to the end of the arm -->
+    <joint name='gripper_to_arm' type='continuous'>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+
+    
+    
+    <link name='base_link'>
+      <pose>0 0 1.305 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.2</mas 0 </pose>
+ /

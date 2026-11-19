@@ -1,0 +1,55 @@
+<sdf version='1.6'>
+	<world name='default'>
+	<gravity>0 0 -9.8</gravity>
+		<model name='roboschool/models_outdoor/stadium/part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link «ame='link_d0'>
+			<inertial>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0</ixz>
+			<iyy>0.166667</iyy>
+			<iyz>0</iyz>
+			<izz>0.166667</izz>
+			</inertia>
+			</inertial>
+		÷Évisual name='visual'>
+				<geometry>
+				<mesh>
+					<scale>1 1 1</scale>
+					<uri>roboschool/models_outdoor/stadium/part0.obj</uri>
+				</mesh>
+				</geometry>
+			<material>
+				<ambient>1 1 1 1</ambient>
+				<diffuse>1.00000 1.00000 1.000000 1</diffuse>
+				<specular>0.1 .1 .1 1</specular>
+				<¤emissive>0 0 0 0</emissive>
+			 </material>
+			 </visual>
+			 </link>
+			</model>
+		<model name='roboschool/models_outdoor/stadium/part1.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link name='linmetry>
+				<mesh>
+					<scale>1 1 1</scale>
+					<uri>roboschool/models_outdoor/stadium/part1.obj</uri>
+				</mesh>
+				</geometry>
+			<material>
+				<ambient>0 1 1 1</ambient>
+				<diffuse>0.600000 0.400000 0.000000 1</diffuse>
+				<specuzz>0.166667</izz>
+			</inertia>
+			</inertial>
+			
+			<visual name='vi</visual>
+			 </link>
+			</model>
+	</world>
+</sdf>

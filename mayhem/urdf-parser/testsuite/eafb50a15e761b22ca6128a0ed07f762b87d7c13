@@ -1,0 +1,15 @@
+<?xml versiollision_margin value="0.006"/e="torus">
+ izz="1" />
+    </ien="2.0" ?>
+<robot name="urdf_robot">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+  f_robot">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+
+ 
+</robot>
+

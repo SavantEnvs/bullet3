@@ -1,0 +1,47 @@
+<sdf version='1.6÷÷÷÷÷÷÷÷÷÷÷÷'>
+<world name='default'>
+  <model name='lbr_iiwa'>
+    <link name='lbr_iiwa_link_5'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.1 0 0.07 0 -0 0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>0.05</ixx>          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.06</iyy>
+          <iyz>0</iyz>
+          <izz>0.03</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_0_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_0_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_0.stl<																																																																																																															/uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name='lbr_i4</mass>
+        <i <iyz>0</iyz>
+          <izz>0.02</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_1_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <effort>3      </collision>00</eff
+        or<t>

@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: multibody-world-importer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/multibody-world-importer/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_multibody_world_importer
+    libfuzzer: true
+    timeout: 10

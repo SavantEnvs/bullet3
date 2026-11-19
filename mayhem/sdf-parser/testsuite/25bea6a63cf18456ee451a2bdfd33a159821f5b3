@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+  <model name='wsg50_with_gripper'>
+    
+    <pose>0 -2.3 2.1 0 0 0</pose>
+    <link name='world'>
+	<pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1</iyy>
+          <iyz>0</iyz>
+          <izz>1</izz>
+        </inertia>
+      </inertial>
+    </link>
+  
+    <joint name='base_joint' type='fixed'>
+      <parent>world</parent>
+      <child>base_link</child>
+    </joint>
+
+    <link name='base_link'>
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1.2</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1</iyy>
+          <iyz>0</iyz>
+          <izz>1</izz>
+        </inertia>
+      </inertial>
+	  
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://meshes/WSG50_110.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+
+        </material>
+      </visual>
+	  
+    </link>
+	
+    <link name='motor'>
+      <pose>0 0 0.03 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.1</iyy>
+ >
+          <iyy>0.1</iyy>
+          <iyz>0</iyz>
+          <izz>0.1</izz>
+        </inertia>
+      </inertial>
+      <visual name='motor_visual'>
+        <pose>0.03 0 0.01 0 1.2 0</pose>
+        <geometry>
+		  <box>
+            <size.0.02 0.02 0.07 </size>
+ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.1</iyy>
+          <iyz>0</iyz>
+          <izz>0.1</izz>
+        </inertia>
+      </inertial>
+	  
+      <collision name='finger_left_collision'>
+        <pose>0 0 0.042 0 0 0 </pose>
+        <geometry>
+               <box>
+              <size>0.02 0.02 0.15 </size>
+            </box>
+
+        </geometry>
+      </collision>
+	  
+      <visual namleft</child>
+    </joint>
+  </model>
+</world>
+</sdf>

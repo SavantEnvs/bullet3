@@ -1,0 +1,10 @@
+<?xml vers—‘»"1.0" ?>
+<robot name="plane">
+  <link name="planeLink">
+  <contact>
+      <restitution value="0.5"/>
+  </c‘ˆtact>
+    <inerti
+       <inerti
+</robot>
+

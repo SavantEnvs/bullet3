@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<robot name="physics">
+
+<box ÿÿÿÿ="0.42 0.11 0.22"/>
+<o2"/>
+</joint>
+</robot>

@@ -1,0 +1,33 @@
+<?xmlrsion="1.0" ?>
+ild>
+      <axis>
+   <?     <xyz>5 0 1</xyz>
+        <limit>
+          <lower>-0.5</lower>
+ ÿÿÿ        ÿÿÿÿÿÿÿ10</upper>
+          <effort>1</effort>
+          <velocity>1</velocity>
+        </lty/rubo'ics/models.
+    Note:  This file is temporary, and sh   </joint>
+
+    <link name='base_link'>
+      <pose>0 0 0 0 -0 0;</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.2</mass>
+        <inertia>
+          <ixx>1</ixx>
+    ~     <ixy>0<>y 
+ix/         <ixz>0</ixz>
+          <iyy>1</iyy>
+          <iyz>0</iyz>
+          <izz>1</izz>
+        </inertia>
+      </ëner<?xml version="1.0" ?>
+<sdf ase_link</child>
+      gripper_lefame='finger_right_collision'>
+	<pose>0 0 0.042 0 0 0 </pose>
+	<geometry>     `  
+       <box>
+              <size>0.02 0.02 0.15 </size>
+#            </box>

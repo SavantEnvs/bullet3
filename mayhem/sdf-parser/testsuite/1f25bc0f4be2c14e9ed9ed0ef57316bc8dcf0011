@@ -1,0 +1,9 @@
+<sdf version='1.6'>
+  <world name='default'>
+   mo< del name='unit_box_0'>
+:link'>
+      á <inertial>
+          <mass>0.1</mass>
+      >
+      <pose>0 0 0.107 0 0 0<`/poserld>
+</sdf>

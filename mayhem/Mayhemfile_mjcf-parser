@@ -1,0 +1,9 @@
+project: savantenvs/bullet3
+target: mjcf-parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mjcf-parser/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_mjcf_parser
+    libfuzzer: true
+    timeout: 10

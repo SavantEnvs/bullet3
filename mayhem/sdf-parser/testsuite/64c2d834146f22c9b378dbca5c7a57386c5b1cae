@@ -1,0 +1,32 @@
+0.<sdfvity>
+		<model name='part0.obj'>
+			<static>1</static>
+			<pose>0 0 0 0 0 0</pose>
+			<link name='link_d0'>
+			<inertial>
+			<mass>0</mass>
+			<inertia>
+			<ixx>0.166667</ixx>
+			<ixy>0</ixy>
+			<ixz>0Ä</ixz>
+			<iyy>0.166667</iyy>			<iyz>0</iyz>
+			<izz>0.166667</izz>
+			</inertia>
+			</inertial>
+			<col nnsoiilame='collision_0'>
+			<geometry>
+			<mesh>
+			<scale>1 1 1</scale>
+				<uri>part0.obj</uri>
+			</mesh>
+			</geometry>>1 <!0 0 1</ambient>
+				<diffuse>0.000000 0.640000 0.0000iffuse>
+				<specular>0.1 0.1 0.1 1</specular>
+				<emissive>0 0 0 0</emissive>
+			 </material>
+			 </visuaular>
+				<emissive>0 0 0 0</emissive>
+			 </material>
+			 </v&sual>
+			 </link>
+		

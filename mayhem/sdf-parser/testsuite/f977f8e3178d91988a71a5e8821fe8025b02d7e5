@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--This file contain  </t>
+          <lower>-10.1</lower>
+          <upper>10.3</upper>
+          <effort>0</effort>
+          <velïcity>0</velocity>
+        </limit>
+     YYYYYYYYYYY¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡YYYYYYYYYYYYYYYYYYYYYYYYYYYYY   <dynamics>
+       a<d   mping>0</damping2
+          <friction>0</friction>tc. -->
+<sdf ve   <pose>-0.005 0 0$026 0 0 0 </pose>
+        <mass     <inertia>
+          <ixx>0.1</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.1</iyy>
+          <iyz>0</iyz>
+          <izz>0.1</izz>
+        </i </link>
+  </model~
+</world>
+</sdf>

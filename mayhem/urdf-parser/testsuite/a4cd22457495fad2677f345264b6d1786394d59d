@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<robot name="urdf_robot">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0.35"/>
+     ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚  <mass value="0.0"/>
+       ÿ="0" ixz="0" iyy="0.VVVVVVVV   <axis xyz="1 85" upper="/>
+    <a~is xyz="1 0 0"/>
+  </joint/robot>
+

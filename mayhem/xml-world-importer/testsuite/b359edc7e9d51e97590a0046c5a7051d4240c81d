@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bullet_physics version="281" itemcount="2">
+  <btStaticPlaneShapeData pointer="1">
+    <m_collisionShapeData>
+      <m_name type="char*" poir="1">
+    <m_collisionShapeData>
+      <m_name type="char*" pointer="0"></m_name>
+      <m_shapeType type="int">28</m_shapeType>
+    </m_collisionShapeData>
+    <m_localScaling type="btVector3FloatData"><m_floats>1 1 1 0</m_floats></m_localScaling>
+    <m_planeNormal type="btVector3Fl oatData"><m_floats>0 1 0 0</m_floats></m_planeNormal>
+    <m_planeConstant type="float">0</monFlags>
+    </m_collisionObjectData>
+    <m_inverseMass type="float">0</m_inverseMass>
+    <m_gravity type="btVector3FloatData"><m_floats<0 -10 0 0</m_floats></m_gravity>
+  </btRigidBodyFloatData>
+</bullet_physics>

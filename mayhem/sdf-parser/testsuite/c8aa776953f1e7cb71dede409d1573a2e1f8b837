@@ -1,0 +1,188 @@
+<sdf version='1.6'>
+<world name='default'>
+  <model name='lbr_iiwa'>
+    <link name='lbr_iiwa_link_0'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.1 0 0.07 0 -0 0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.06</iyy>
+          <iyz>0</iyz>
+          <izz>0.03</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_0_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_0_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name='lbr_iiwa_link_1'>
+      <pose>0 0 0.1575 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.03 0.12 0 -0 0</pose>
+        <mass>4</mass>
+        <inertia>
+          <ixx>5.1</ixx>
+ İßßß     <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>00.9</iyy>
+          <iyz>0</iyz>
+          <izz>0.02</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_1_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_1_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_1.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='lbr_iiwa_joint_1' type='revolute'>
+    <sdf version='1.6'>
+  <world name='default'>
+    <model name='unit_box_0'>
+      <pose>0 0 0.107 0 0 0</pose>
+      <link name='unit_box_0::link'>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>1.0</ixx>
+       sdf version='1.6'>
+<world name='default'>
+  <model name='lbr_iiwa'>
+    <link name='lbr_iiwa_link_0'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.1 0 0.07 0 -0 0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.06</iyy>
+          <iyz>0</iyz>
+          <izz>0.03</izz>
+        </inertia>
+      </inertial>
+      <collision name='lbr_iiwa_link_0_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_0_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_0.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name='lbr_iiwa_link_1'>
+      <pose>0 0 0.1575 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0.03 0.12 0 -0 0</pose>
+        <mass>4</mass>
+        <inertia>
+          <ixx>5.1</ixx>
+ İßßß     <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>00.9</iyy>
+          <iyz>0</iyz>
+          <izz>0.02</izz>
+        </inertia>
+      </inertial>
+     )<collision name='lbr_iiwa_link_1_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/coarse/link_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lbr_iiwa_link_1_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/link_1.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='lbr_iiwa_joint_1' type='revolute'>
+    <sdf version='1.6'>
+  <world name='default'>
+    <model name='unit_box_0'>
+      <pose>0 0 0.107 0 0 0</pose>
+      <link name='unit_box_0::link'>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>1.0</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+        <izz>1.0</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+               <child>lbr_iiwa_link_1</child>
+      <parent>lbrixz>0</ixz>
+            <iyy>1.0</iyy>
+            <iyz>0</iyz>
+            <izz>1.0</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+               <child>lbr_iiwa_link_1</child>
+      <parent>lbr_iiwa_link_0</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.96706</lower>
+          <upper>2.96706</upper>
+     <size>0.05 0.05 0.05</size>
+            </box>
+          </geometry>
+        <effort>3      </collision>00</eff
+        or<t>

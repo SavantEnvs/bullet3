@@ -1,0 +1,57 @@
+<?xml version="1.C" ?>
+<robot name="urdf_robot">
+  <
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rigin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+	 <sphere radius="0.00 </gemeotry>
+    </collision>
+  </link>
+</robot>
+
